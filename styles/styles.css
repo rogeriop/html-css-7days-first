@@ -1,5 +1,6 @@
 @import url("reset.css");
 @import url("primeira-secao.css");
+@import url("metricas.css");
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
@@ -8,6 +9,8 @@
     --cor-avermelhada: #8E2424;
     --cor-branca: #FFFFFF;
     --cor-cinza: #667085;
+    --cor-quase-preta:#101828;
+
     
 
 

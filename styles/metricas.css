@@ -1,0 +1,47 @@
+
+.metricas {
+    width: 1440px;
+    height: 288px;
+    padding-bottom: 96px;
+    gap: 64px;
+    /*background-color: antiquewhite;*/
+    display: flex;
+    justify-content: center;
+}
+
+.metricas__contem {
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    height: 192px;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+.metricas__conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 192px;
+    gap: 12px;
+}
+
+.metricas__conteudo-pontua {
+    line-height: 72px;
+    font-weight: 600;
+    color: var(--cor-avermelhada);
+    font-size: 60px;
+}
+
+.metricas__conteudo-titulo {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--cor-quase-preta);
+}
+
+.metricas__conteudo-paragrafo {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
