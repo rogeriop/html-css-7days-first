@@ -1,0 +1,32 @@
+
+.cabecalho {
+   height: 407px; 
+   /*background-color: antiquewhite;*/
+   padding: 96px;
+   gap: 24px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+.cabecalho-sobrenos {
+    font-weight: 600;
+    color: var(--cor-avermelhada);
+}
+
+.cabecalho-titulo {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.cabecalho-paragrafo {
+    width: 792px;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cor-cinza);
+    line-height: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

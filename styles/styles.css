@@ -1,9 +1,14 @@
+@import url("reset.css");
+@import url("primeira-secao.css");
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 
 :root {
     --fonte-principal: 'Inter';
     --cor-avermelhada: #8E2424;
     --cor-branca: #FFFFFF;
+    --cor-cinza: #667085;
+    
 
 
 }
@@ -34,10 +39,6 @@ body {
     width: 362px;
     justify-content: space-between;
     display: flex;
-}
-
-.navegacao__links {
-
 }
 
 .navbar__botoes-Entrar {
