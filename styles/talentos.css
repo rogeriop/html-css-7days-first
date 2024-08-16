@@ -1,0 +1,39 @@
+
+.talentos {
+/*    width: 1440px;*/
+    height: 1798px;
+    padding-left: 96px;
+    padding-right: 96px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.talentos__imagem {
+    width: 1280px;
+    height: 602px;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 64px;
+}
+
+.talentos__imagem-informe {
+    color: var(--cor-avermelhada);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.talentos__imagem-titulo {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.talentos__imagem-texto {
+    font-weight: 400;
+    line-height: 30px;
+    
+}
