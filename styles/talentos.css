@@ -37,3 +37,89 @@
     line-height: 30px;
     
 }
+
+.talentos__vagas {
+    width: 1280px;
+    height: 940px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.talentos__vagas-bloco1 {
+    width: 1280px;
+    height: 358px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(159, 154, 146);
+}
+
+.talentos__vagas-design {
+    width: 768px;
+    height: 358px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.talentos__vagas-titulo {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.vaga {
+    width: 768px;
+    height: 136px;
+    background-color: rgb(222, 209, 209);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border: 1px;
+    padding-top: 24px;
+    padding-left: 28px;
+}
+
+.titulo-vaga {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.informacoes {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+/*    width: 720px;
+    height: 84px;
+    background-color: white;*/
+}
+
+.talentos__vagas-bloco2 {
+    width: 1280px;
+    height: 518px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(159, 154, 146);
+}
+
+
+
+.talentos__vagas-desenvolvedor {
+    width: 768px;
+    height: 518px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+
+
+
+
+
+
