@@ -1,0 +1,73 @@
+
+.depoimento {
+    height: 500px;
+    background-color: azure;
+    display: flex;
+    padding-left: 140px;
+}
+
+.depoimento__conteudo {
+    width: 1216px;
+    height: 404px;
+    padding-right: 64px;
+    padding-left: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: 16px;
+    gap: 32px;
+    background: #C3191908;
+
+}
+
+.depoimento__conteudo-fala {
+    width: 1088px;
+    height: 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+}
+
+.depoimento__conteudo-fala-titulo {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--cor-avermelhada);
+}
+
+.depoimento__conteudo-fala-texto {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.depoimento__conteudo-imagem {
+    width: 1088px;
+    height: 120px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.depoimento__conteudo-imagem-foto {
+    width: 56px;
+    height: 56px;
+}
+
+.depoimento__conteudo-imagem-nome {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-quase-preta);
+}
+
+.depoimento__conteudo-imagem-cargo {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--cor-cinza);
+}
