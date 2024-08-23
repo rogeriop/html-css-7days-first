@@ -1,0 +1,71 @@
+
+.rodape {
+    /*width: 1440px;*/
+    height: 430px;
+    background-color: antiquewhite;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.rodape__body {
+    width: 832px;
+    height: 182px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background: cyan;
+}
+
+.rodape__body__formulario {
+    width: 768px;
+    height: 182px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.rodape__body__formulario-cabecalho {
+    width: 768px;
+    height: 94px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape__body__formulario-cabecalho-titulo {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.rodape__body__formulario-cabecalho-texto {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.rodape__body__formulario-formulario {
+    width: 492px;
+    height: 48px;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.rodape__body__formulario-formulario-email {
+    width: 360px;
+    height: 48px;
+    padding-left: 16px;
+}
+
+.rodape-copywriter {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
