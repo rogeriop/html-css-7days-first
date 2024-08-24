@@ -4,6 +4,8 @@
     background-color: azure;
     display: flex;
     padding-left: 140px;
+    align-items: center;
+    justify-content: center;
 }
 
 .depoimento__conteudo {
